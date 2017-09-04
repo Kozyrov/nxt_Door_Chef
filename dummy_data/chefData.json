@@ -1,0 +1,56 @@
+{
+  "chef":{
+    "id": 2,
+    "firstName": "Immogene",
+    "lastName": "Von Svesterkrank",
+    "alias": "Undercover Burger Spot",
+    "city": "Irvine",
+    "address": "2302 Martin, Irvine, CA 92612",
+    "lat": 33.6716,
+    "lng": -117.859,
+    "foodType": "Eclectic",
+    "bio": "Federal Special Agent in the FBI's BAU pursuing the world's most dangerous serial killers. I write romance novels and DBZ fan fic in my spare time.  My Larb Salad is to die for.",
+    "createdAt": null,
+    "updatedAt": null
+  },
+  "menu": {
+    "data": [
+      {
+        "id": 2,
+        "menu_item_number": 1,
+        "item_name": "Ultimate Spam Sandwich",
+        "foodType": "American",
+        "description": "The sandwich you never expected...",
+        "price": 11,
+        "chef_id": 2,
+        "photo": "http://del.h-cdn.co/assets/15/37/plated-mac-and-cheese.jpg",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 3,
+        "menu_item_number": 2,
+        "item_name": "Not you Dad's Tuna Melt",
+        "foodType": "American",
+        "description": "The best tuna melt you'll ever have!!!",
+        "price": 10,
+        "chef_id": 2,
+        "photo": "http://www.partyexcuses.com/images/uploads/holidayimages/bigstock-Small-Jelly-Beans-55958012.jpg",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 4,
+        "menu_item_number": 3,
+        "item_name": "Whole Pan-O-Nachos",
+        "foodType": "American",
+        "description": "Some Serious Nachos!!!",
+        "price": 9,
+        "chef_id": 2,
+        "photo": "http://cdn2.tmbi.com/TOH/Images/Photos/37/1200x1200/All-American-Bacon-Cheeseburgers_exps48107_TH2379798C03_29_1b_RMS.jpg",
+        "createdAt": null,
+        "updatedAt": null
+      }
+    ]
+  }
+}

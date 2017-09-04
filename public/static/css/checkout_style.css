@@ -1,0 +1,29 @@
+body {
+    padding: 40px;
+}
+
+.row {
+    padding: 0;
+    border: solid 1px #000000;
+}
+
+#orderBy_container {
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+#orderOf_container {
+    padding: 25px;
+    background-color: #fffed6;
+}
+
+#mealName {
+    text-transform: capitalize;
+}
+
+img {
+    vertical-align: middle;
+    width: 100%;
+    margin-top:10px;
+    margin-bottom:10px;
+}

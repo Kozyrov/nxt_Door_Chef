@@ -1,0 +1,94 @@
+{
+  "chef":{
+    "id": 2,
+    "firstName": "Immogene",
+    "lastName": "Von Svesterkrank",
+    "alias": "Undercover Burger Spot",
+    "city": "Irvine",
+    "address": "2302 Martin, Irvine, CA 92612",
+    "lat": 33.6716,
+    "lng": -117.859,
+    "foodType": "Eclectic",
+    "bio": "Federal Special Agent in the FBI's BAU pursuing the world's most dangerous serial killers. I write romance novels and DBZ fan fic in my spare time.  My Larb Salad is to die for.",
+    "createdAt": null,
+    "updatedAt": null
+  },
+  "menu": {
+    "data": [
+      {
+        "id": 2,
+        "menu_item_number": 1,
+        "item_name": "Ultimate Spam Sandwich",
+        "foodType": "American",
+        "description": "The sandwich you never expected...",
+        "photo": "http://www.seriouseats.com/recipes/images/2012/07/20120713-burger-topping-variations-02.jpg",
+        "price": 11,
+        "chef_id": 2,
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 3,
+        "menu_item_number": 2,
+        "item_name": "Not your Dad's Tuna Melt",
+        "foodType": "American",
+        "description": "The best tuna melt you'll ever have!!!",
+        "photo": "https://fthmb.tqn.com/HhiLp748ZjNFzci6mkvI0isue0g=/960x0/filters:no_upscale()/about/gourmettunasaladmelt-591387983df78c92839932a6.jpg",
+        "price": 10,
+        "chef_id": 2,
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 4,
+        "menu_item_number": 3,
+        "item_name": "Whole Pan-O-Nachos",
+        "foodType": "American",
+        "description": "Some Serious Nachos!!!",
+        "photo": "http://mylifecookbook.com/wp-content/uploads/2017/03/easy-Italian-style-nachos-pan.jpg",
+        "price": 9,
+        "chef_id": 2,
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 4,
+        "menu_item_number": 3,
+        "item_name": "Whole Pan-O-Nachos",
+        "foodType": "American",
+        "description": "Some Serious Nachos!!!",
+        "photo": "http://mylifecookbook.com/wp-content/uploads/2017/03/easy-Italian-style-nachos-pan.jpg",
+        "price": 9,
+        "chef_id": 2,
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 4,
+        "menu_item_number": 3,
+        "item_name": "Whole Pan-O-Nachos",
+        "foodType": "American",
+        "description": "Some Serious Nachos!!!",
+        "photo": "http://mylifecookbook.com/wp-content/uploads/2017/03/easy-Italian-style-nachos-pan.jpg",
+        "price": 9,
+        "chef_id": 2,
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 4,
+        "menu_item_number": 3,
+        "item_name": "Whole Pan-O-Nachos",
+        "foodType": "American",
+        "description": "Some Serious Nachos!!!",
+        "photo": "http://mylifecookbook.com/wp-content/uploads/2017/03/easy-Italian-style-nachos-pan.jpg",
+        "price": 9,
+        "chef_id": 2,
+        "createdAt": null,
+        "updatedAt": null
+      }
+
+
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "food_image": "chef_name",
+  "food_detail": "Italian",
+  "food_cost": "1"
+}
+
+
+{
+  "chef": [
+    {
+      "id": 25,
+      "firstName": "Mystic",
+      "lastName": "Mac",
+      "city": "Dublin",
+      "address": "8484 Mcgregor blvd",
+      "lat": 33.4563,
+      "lng": 117.345,
+      "foodType": "Irish",
+      "bio": "Natural born fighter destroying everything in the way"
+    }
+  ],
+  "menu": [
+    {
+      "id": 2,
+      "menu_item_number": 1,
+      "item_name": "Ultimate Spam Sandwich",
+      "description": "",
+      "price": 0,
+      "chef_id": 2
+    },
+    {
+      "id": 3,
+      "menu_item_number": 2,
+      "item_name": "Not you Dad's Tuna Melt",
+      "description": "",
+      "price": 0,
+      "chef_id": 2
+    },
+    {
+      "id": 4,
+      "menu_item_number": 3,
+      "item_name": "Whole Pan-O-Nachos",
+      "description": "",
+      "price": 0,
+      "chef_id": 2
+    }
+  ]
+}

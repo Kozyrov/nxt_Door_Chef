@@ -1,0 +1,61 @@
+{oc
+  "success": true,
+  "data": [
+    {
+      "id": 2,
+      "firstName": "Immogene",
+      "lastName": "Von Svesterkrank",
+      "alias": "Undercover Burger Spot",
+      "city": "Irvine",
+      "address": "2302 Martin, Irvine, CA 92612",
+      "lat": 33.6716,
+      "lng": -117.859,
+      "foodType": "Eclectic",
+      "bio": "Federal Special Agent in the FBI's BAU pursuing the world's most dangerous serial killers. I write romance novels and DBZ fan fic in my spare time.  My Larb Salad is to die for.",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 3,
+      "firstName": "Arthur",
+      "lastName": "Pendragon",
+      "alias": "The Kingsmen",
+      "city": "Irvine",
+      "address": "3405 Michelson Dr, Irvine, CA 92612",
+      "lat": 33.6717,
+      "lng": -117.835,
+      "foodType": "Classic British",
+      "bio": "Legendary British King, One of the Nine Worthies, wielder of Excalibur, and destroyer of Saxons. Big fan of Bradley James' work. I specialize in cooking wild game",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 4,
+      "firstName": "Liam",
+      "lastName": "Neeson",
+      "alias": "French Connection",
+      "city": "Irvine",
+      "address": "1530 Concordia, Irvine, CA 92612",
+      "lat": 33.6545,
+      "lng": -117.812,
+      "foodType": "French",
+      "bio": "Northern Irish Actor from Belfast. I love wrinkling my forehead and wielding lightsabers. I will find you and I will feed you.",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 5,
+      "firstName": "Amanda",
+      "lastName": "Bynes",
+      "alias": "The Green Door",
+      "city": "Irvine",
+      "address": "17590 Gillette Ave, Irvine, CA 92614",
+      "lat": 33.6919,
+      "lng": -117.852,
+      "foodType": "Healthy",
+      "bio": "Former child actress and recently recovered addict. I love Hawaiian sunsets, my family, and my therapist. Give my Cauliflower Shwarma a try, it's tre chic.",
+      "createdAt": null,
+      "updatedAt": null
+    }
+  ]
+}

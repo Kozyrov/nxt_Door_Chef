@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChefNextDoor-Checkout-prototype</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/css/checkout_style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <script src="static/js/checkout_script.js"></script>
+
+</head>
+
+<body>
+<h1>Checkout</h1>
+<div class="container-fluid">
+    <div class="row">
+        <!--User info section-->
+        <div class="col-sm-6" id="orderBy_container">
+            <h5>Ordering by:</h5>
+            <div>
+                <form class="userInfo">
+                    <div class="form-group">
+                        <label>Name:</label>
+                        <input type="text" class="form-control" id="userName" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" id="userEmail" placeholder="Enter email">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!--Chef info section-->
+        <div class="col-sm-6" id="orderOf_container">
+            <h5>Ordering of:</h5>
+            <br/>
+        </div>
+        <!-- Modal -->
+        <div id="confirmModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-sm">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <!--<div class="modal-header">-->
+                        <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                        <!--<h4 class="modal-title">Modal Header</h4>-->
+                    <!--</div>-->
+                    <div class="modal-body">
+                        <p>Thank you for buying! <br/> Please check your email for confirmation of purchase.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id='confirmButton' class="btn btn-outline-success">Checkout</button>
+
+</div>
+</body>
+</html>

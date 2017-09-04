@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+    <title>NxtDoorChef</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+    <script src="static/js/menu_modal.js"></script>
+    <script src="static/js/food_results.js"></script>
+    <script src="static/js/checkout_script.js"></script>
+    <script src="static/js/chefProfile.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default col-xs-12" id="whole-navbar">
+    <div class="container-fluid">
+        <span class="backButton backToHome glyphicon glyphicon-menu-left col-sm-1 col-xs-1" onclick="backToHome()"></span>
+        <div onclick="location.reload()" class="navbar-header col-sm-5 col-xs-12">
+            <img class="navbar-brand" src="assets/nxtDoorChef.png">
+        </div>
+        <div class="col-sm-6 col-xs-12 right-nav navbar-right">
+            <button class="searchAll col-sm-2 col-md-offset-1 btn btn-primary" type="submit">See All</button>
+            <div class="container-4 col-sm-8">
+                <input class="form-control foodInput" type="search" id="search" placeholder="Cuisine..." />
+                <button class="icon" id="icon-search"><i class="fa fa-search"></i></button>
+            </div>
+            <!--<div class="modal fade" id="ajaxErrorModal">-->
+                <!--<div class="modal-dialog">-->
+                    <!--<div class="modal-content">-->
+                        <!--SORRY! We couldn't find what you were looking for!-->
+                        <!--<div class="modal-body">-->
+                            <!--<img src="assets/404_gif.gif" alt="">-->
+                            <!--<div id="errors"></div>-->
+                        <!--</div>-->
+                        <!--Pick yourself up and try again!-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<input class="form-control foodInput" type="text" placeholder="Cuisine">-->
+            <!--<span class="input-group-btn">-->
+                <!--<button class="submit btn glyphicon" type="submit">Search</button>-->
+            <!--</span>-->
+        </div>
+    </div>
+</nav>
+
+<!--***************************************-->
+<!--*************Landing Page**************-->
+<!--***************************************-->
+<section class="container-fluid" id="landingPage">
+    <div class="row">
+        <div class="theChefBox col-md-5">
+            <div class="jumbotron" id="app-info">
+                <h2>A Taste of Home</h2>
+                <p>Looking for a ride, open up Uber. Need a vacation rental, hop on Airbnb. Hungry...there's a nxtDoorChef for that! </p>
+                <p>Simply enter the type of food you'd like to eat in the search bar, see who's cooking around you, pick the food that's gonna satisfy your craving, and order.</p>
+                <p>So don't wait.  Take a trip to your city's largest neighborhood eatery today.</p>
+                <p>And the best part is...it's just right next door!</p>
+                <!--<p>Before you know it, you'll be pulling up to pickup your food from your very over nxtDoorChef.</p>-->
+            </div>
+        </div>
+        <div class="mobileChefProfile col-xs-12"></div>
+        <div class="mapAndSearch col-md-7 col-xs-12">
+            <div id="map"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="results_heading col-xs-12">
+        </div>
+    </div>
+    <div id="single_menu_item_modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="menu-modal">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal" onclick=placeOrder()>Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--***************************************-->
+<!--************Checkout Page**************-->
+<!--***************************************-->
+<section id="checkout">
+    <h3>Checkout</h3>
+    <div class="container-fluid">
+        <div class="row">
+            <!--User info section-->
+            <div class="col-sm-3 col-xs-12" id="orderBy_container">
+                <h4>Customer:</h4>
+                <div>
+                    <form class="userInfo">
+                        <div class="form-group checkoutForm">
+                            <div>
+                                <input type="text" class="form-control" id="userFirstName" placeholder="First Name">
+                            </div>
+                            <!--<div class="form-control-feedback">This field is required</div>-->
+                        </div>
+                        <div class="form-group checkoutForm">
+                            <!--<label>Name:</label>-->
+                            <input type="text" class="form-control" id="userLastName" placeholder="Last Name">
+                            <!--<div class="form-control-feedback">This field is required</div>-->
+                        </div>
+                        <div class="form-group checkoutForm">
+                            <!--<label>Email:</label>-->
+                            <input type="email" class="form-control" id="userEmail" placeholder="Email Address">
+                            <!--<div class="form-control-feedback">This field is required</div>-->
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--Chef info section-->
+            <div class="col-sm-3 col-xs-12" id="orderOf_container">
+            </div>
+            <div class="col-sm-3 col-xs-12" id="pickupInfo_container">
+            </div>
+            <!-- Modal -->
+            <div id="confirmModal" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-md">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                            <img src="assets/nxtDoorChef.png">
+                        </div>
+                        <div class="modal-body">
+                            <p>Your nxtDoorChef thanks you for your purchase!</p>
+                            <br>
+                            <p>A confirmation has been sent to your email address.</p>
+                        </div>
+                        <!--<div class="modal-footer">-->
+                        <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                        <!--</div>-->
+                    </div>
+                    <!--<div class="modal-footer">-->
+                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="checkout_buttons">
+        <button id='confirmButton' class="btn btn-info">Confirm Order</button>
+        <button id='backButtonCheckout' class="btn btn-basic">Cancel</button>
+    </div>
+    </div>
+</section>
+<!--***************************************-->
+<!--***********Chef Profile Page***********-->
+<!--***************************************-->
+<section id="chefProfile">
+    <main>
+        <div class="container">
+            <!--This is the picture section. Carousel of all the pictures associated with the chef profile. Portrait, food, etc..-->
+            <section class="col-sm-8 col-sm-offset-2"  id="chefProfilePics">
+            </section>
+            <div id="mobileChefMenu"></div>
+            <div class="row profileDetails">
+                <div class="col-md-6">
+                    <!--Information about the chef. His/her story and hours-->
+                    <section id="chefProfileChef">
+                    </section>
+                    <!--Pages of user reviews about chef or items-->
+                    <section id="chefProfileReview">
+                    </section>
+                    <!--Location of the chef with a map-->
+                    <section id="chefProfileLocation">
+                    </section>
+                </div>
+                <div class="col-md-6">
+                    <!--Menu section with all of Chefs' items-->
+                    <section id="chefProfileMenu">
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="chefModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="menu-modal">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal" onclick=chefModalOrder()>Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyB3u9yEVvIK_f8vbOrh9G2cSWVcfmMgzWo"></script>
+<script src="static/js/workingMap.js"></script>
+</body>
+</html>

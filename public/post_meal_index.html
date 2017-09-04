@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Next Door Chef</title>
+        <link rel="stylesheet" type="text/css" href="static/css/post_meal_style.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="static/js/implementLater/post_meal.js"></script>
+    </head>
+    <body>
+
+    <!--<form action="/action_page.php">-->
+        <!--Your Dish:<br>-->
+        <!--<input type="text" name="Dish" placeholder="Chicken Alfredo">-->
+        <!--<br><br>-->
+
+        <!--Description:<br>-->
+        <!--<textarea rows="4" cols="50" placeholder="Describe your dish..."></textarea>-->
+        <!--<br><br>-->
+
+        <!--<select>-->
+            <!--<option value="25 Tokens">25 Tokens</option>-->
+            <!--<option value="50 Tokens">50 Tokens</option>-->
+            <!--<option value="100 Tokens" selected>100 Tokens</option>-->
+            <!--<option value="150 Tokens">150 Tokens</option>-->
+            <!--<option value="200 Tokens">200 Tokens</option>-->
+            <!--<option value="250 Tokens">250 Tokens</option>-->
+            <!--<option value="300 Tokens">300 Tokens</option>-->
+        <!--</select>-->
+        <!--<br><br>-->
+
+        <!--<input type="submit" value="Submit">-->
+    <!--</form>-->
+    <!--<br><br>-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="dish">Dish:</label>
+                    <input type="text" class="form-control" placeholder="Chicken Alfredo" id="dish">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <textarea class="form-control" rows="5" placeholder="Describe your dish..." id="description"></textarea>
+                </div>
+                <div class="form-group" >
+                    <label for="cost">Cost:</label>
+                    <select class="form-control" id="cost">
+                        <option>25 Tokens</option>
+                        <option>50 Tokens</option>
+                        <option selected>100 Tokens</option>
+                        <option>150 Tokens</option>
+                        <option>200 Tokens</option>
+                        <option>250 Tokens</option>
+                        <option>300 Tokens</option>
+                    </select>
+                    <br><br>
+                    <button type="button" class="btn btn-info" onclick="postMealClicked()">Post Meal</button>
+                    <button type="button" class="btn btn-danger" onclick="cancelClicked()">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--<div class="food_item">-->
+        <!--<div class="food_details">-->
+            <!--<div class="food_name">-->
+                <!--<p>Chicken Alfredo</p>-->
+            <!--</div>-->
+            <!--<div class="food_description">-->
+                <!--<p>Chicken breast, creamy parmesan sauce, fresh pasta.</p>-->
+            <!--</div>-->
+            <!--<div class="food_price">-->
+                <!--<p>100 Tokens</p>-->
+            <!--</div>-->
+            <!--<div class="food_img">-->
+                <!--<img src="images/alfredo.jpg" alt="chicken alfredo">-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--</body>-->
+</html>

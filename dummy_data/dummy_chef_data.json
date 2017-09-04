@@ -1,0 +1,265 @@
+[
+  {
+    "id": "1",
+    "name": "Ronald Reagan",
+    "style": "Russian and American Cuisine",
+    "bio": "40th President of the United States from 1981 to 1989. A fan of italian food and my wife Nancy. Check out my killer fudge brownies.",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ronald_Reagan_with_cowboy_hat_12-0071M_edit.jpg",
+    "address": "Bonita Canyon Sports Park, Ford Rd, Newport Beach, CA 92660",
+    "location": {
+      "lat": "33.6274507",
+      "lng": "-117.8527552"
+    },
+    "menu": [
+      {
+        "name": "Ronnies Stroganoff",
+        "type": "Russian",
+        "photo": "http://assets.epicurious.com/photos/5761cb888accf290434553a4/2:1/w_1260%2Ch_630/beef-stroganoff.jpg",
+        "description": "Classic Beef stroganoff with braised tritip, crimini mushrooms, with a decadent cream sauce over home made egg noodles.",
+        "credits": "3",
+        "reviews": [
+        {
+          "reviewer": "John Hinkley Jr.",
+          "compliments": 0
+        }
+      ]
+      },
+      {
+        "name": "The Best Mac and Cheese in America",
+        "type": "American Comfort Food",
+        "photo": "http://del.h-cdn.co/assets/15/37/plated-mac-and-cheese.jpg",
+        "description": "Homemade spiral macaroni smothered in rich gruyere and white cheddar beschamel. Never go boxed again! ",
+        "credits": "2"
+      },
+      {
+        "name": "The Man's Jelly Beans",
+        "type": "Confections",
+        "photo": "http://www.partyexcuses.com/images/uploads/holidayimages/bigstock-Small-Jelly-Beans-55958012.jpg",
+        "description": "I could never seem to get enough of these, so now I make my own!",
+        "credits": "1"
+      },
+      {
+        "name": "The Great American Classic Burger",
+        "type": "American Comfort",
+        "photo": "http://cdn2.tmbi.com/TOH/Images/Photos/37/1200x1200/All-American-Bacon-Cheeseburgers_exps48107_TH2379798C03_29_1b_RMS.jpg",
+        "description": "Thick beef patty, with a slice of American cheese, dill pickle, bacon, butter bib lettuce, tomoato, red onion, and dill aoli on a buttered and toasted bun. ",
+        "credits": "3"
+      },
+      {
+        "name": "Nothing is More American than Apple Pie",
+        "type": "Baked Good",
+        "photo": "http://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/10/4/1/FNM_110110-Pies-027_s4x3.jpg.rend.hgtvcom.406.305.jpeg",
+        "description": "Classic light and crispy crust, with sweet cordialsed apples, spiced with cinnammon and nutmeg, all topped with a sweet, crispy, baked merangue. ",
+        "credits": "2"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Immogene Von Svesterkrank",
+    "style": "Eclectic",
+    "bio": "Federal Special Agent in the FBI's BAU pursuing the world's most dangerous serial killers. I write romance novels and DBZ fan fic in my spare time.  My Larb Salad is to die for. ",
+    "portrait": "https://s-media-cache-ak0.pinimg.com/736x/21/a2/a8/21a2a855d1b6d185f2e08ced722f9017.jpg",
+    "address": "2302 Martin, Irvine, CA 92612",
+    "location": {
+      "lat" : 33.6718958,
+      "lng" : -117.8588827
+    },
+    "menu": [
+      {
+        "name": "Ultimate Spam Sandwich",
+        "type": "American Comfort Food",
+        "photo": "https://munchies-images.vice.com/wp_upload/eggslut-breakfast-sandwich3.jpg",
+        "description": "A spicy, crispy slice of spam, covered in spicy mayo, topped with a chive coevered marbelized egg, and pickled shiso onions all on a toasted hawaiian roll. ",
+        "credits": "2"
+      },
+      {
+        "name": "Whole Pan -O- Nachos",
+        "type": "Tex Mex",
+        "photo": "http://www.taylormademarket.com/wp-content/uploads/2013/08/pizza-nachos.jpg",
+        "description": "A baking cheet covered in crispy white corn chips, covered in Santa Fe Salsa, a three cheese blend and chorizo.",
+        "credits": "2"
+      },
+      {
+        "name": "Not your Dad's Tuna Melt",
+        "type": "American Comfort",
+        "photo": "https://i.ytimg.com/vi/F_6RRtOOCCk/maxresdefault.jpg",
+        "description": "Premium, Oil packed tuna mixed with white onion, capers, sambal olek, mozzarealla nuggets, and mayo all placed on a toasted Jalapeno Cheddar roll and covered in melted white cheddar cheese. ",
+        "credits": "2"
+      },
+      {
+        "name": "Spicy Pork Larb",
+        "type": "Thai",
+        "photo": "http://www.seriouseats.com/assets_c/2012/06/20120613-kenjis-larb-primary-thumb-625xauto-249648.jpg",
+        "description": "Ground pork, thai chilies, lime, powedered toasted rice, and baby bibb for wrapping it all up.",
+        "credits": "2"
+      },
+      {
+        "name": "Cornbread Bibinka",
+        "type": "Baked Good",
+        "photo": "http://salu-salo.com/wp-content/uploads/2015/02/Cornbread-Bibingka-4.jpg",
+        "description": "A philipino twist to the bbq classic. Layered sweet and soft ricecake mixed with a classic cornbread recipie. Trusly something to experience. ",
+        "credits": "1"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Arthur Pendragon",
+    "Style": "Classic British",
+    "bio": "Legendary British King, One of the Nine Worthies, wielder of Excalibur, and destroyer of Saxons. Big fan of Bradley James' work. I specialize in cooking wild game.",
+    "portrait": "http://images6.fanpop.com/image/photos/34600000/Arthur-Pendragon-mergana-and-arwen-34602045-446-500.png",
+    "address": "3405 Michelson Dr, Irvine, CA 92612",
+    "location": {
+      "lat" : 33.6719999,
+      "lng" : -117.8347037
+    },
+    "menu": [
+      {
+        "name": "Whole Roast Boar",
+        "type": "Classic British",
+        "photo": "http://d4nations.com/webpubl/images/1whole-roast-pig_1771165c.jpg",
+        "description": "Whole Roast BoarFreshly pulled from my hunting forest, I have my man servant baste it in butter for a half day over and open flame. Best paired with a rich red wine.",
+        "credits": "5",
+        "reviews": [
+          {
+            "reviewer": "Merlin",
+            "compliments": 4
+          }
+        ]
+      },
+      {
+        "name": "Stargazy Pie",
+        "type": "Classic British",
+        "photo": "https://s-media-cache-ak0.pinimg.com/736x/53/d2/06/53d2062644619d48648c7f822fd8fdb9.jpg",
+        "description": "Whole fish in a delicious gravy topped with a biscuit-like crust. Cheffy makes the best. ",
+        "credits": "5"
+      },
+      {
+        "name": "Toffee Apples",
+        "type": "Classic British",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Korea-Seoul-Insadong-Sanchon-02.jpg",
+        "description": "Apples dipped in liquid toffee and covered in freshly chopped nuts. ",
+        "credits": "5"
+      },
+      {
+        "name": "Boiled Beef",
+        "type": "Classic British",
+        "photo": "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--15261_12.jpg?itok=7D3ttrt9",
+        "description": "Boiled Beef shoulder in beef bullion broth, mashed turnips, spring onion and carrots. ",
+        "credits": "5",
+        "reviews": [
+          {
+            "reviewer": "Mordred",
+            "compliments": 1
+          }
+        ]
+      },
+      {
+        "name": "Beans on Toast",
+        "type": "Classic British",
+        "photo": "http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/10/5/1/FNM_110111-WN-Dinners-001_s4x3.jpg.rend.hgtvcom.616.462.jpeg",
+        "description": "Something the peasants eat, toasted country loaf with a fried egg and of course beans in a tomato based demi glace. ",
+        "credits": "1"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Liam Neeson",
+    "style": "French and Irish",
+    "bio": "Northern Irish Actor from Belfast. I love wrinkling my forehead and wielding lightsabers. I will find you and I will feed you. ",
+    "portrait": "http://esq.h-cdn.co/assets/cm/15/05/54cb854fab7b8_-_esq-liam-neeson-flower-0311-lg.jpg",
+    "address": "1530 Concordia, Irvine, CA 92612",
+    "location": {
+      "lat" : 33.6547213,
+      "lng" : -117.8121476
+    },
+    "menu": [
+      {
+        "name": "Croak Kim",
+        "type": "Modern French",
+        "photo": "http://howtofeedaloon.com/wp-content/uploads/2016/06/croak-madame-feature-1050x700.jpg",
+        "description": "This is my daughters favorite breakfast. A ham and cheese sandwich, enriched with bechamel, and topped with melted gruyere and a over easy egg.",
+        "credits": "3"
+      },
+      {
+        "name": "Hotel Continental",
+        "type": "Best Western",
+        "photo": "http://az616578.vo.msecnd.net/files/2016/06/20/6360205369412502511006069810_continental-breakfast.jpg",
+        "description": "As an actor I often find that the best breakfast is one that comes free with the room I stay in for several months while filming. Assorted croissants, boxed juices, and soggy fruit for a quick and nutritious breakfast before kicking bad guy ass. ",
+        "credits": "1"
+      },
+      {
+        "name": "Raz's Only Meal",
+        "type": "Tibetan",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Korea-Seoul-Insadong-Sanchon-02.jpg",
+        "description": "The only thing that Raz Al Ghoul ever ate while training in the norther reaches of Tibet. Various garden vegetables, pickled and fresh, with bean curd and snow melt to drink. ",
+        "credits": "1"
+      },
+      {
+        "name": "My Pie",
+        "type": "Classic Irish",
+        "photo": "http://cdn-image.foodandwine.com/sites/default/files/styles/rd_home_hero_slide/public/2011-ft-cocktail-food-shepherds-pie_1.jpg?itok=1DKMub8-",
+        "description": "Classic Irish meal - braised lamb, with carrots, leek, and cabbage, topped with broiled mashed potato crust. ",
+        "credits": "3"
+      },
+      {
+        "name": "Best Salad Ever",
+        "type": "Modern",
+        "photo": "http://whiteonricecouple.com/recipe/images/saladfig485-1.jpg",
+        "description": "My favorite food - an arugula, fig, and blue cheese salad lightly dressed with bacon, grape seed oil, mustard, and red wine vinegar.",
+        "credits": "2"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Amanda Bynes",
+    "style": "Healthy",
+    "bio": "Former child actress and recently recovered addict. I love Hawaiian sunsets, my family, and my therapist. Give my Cauliflower Shwarma a try, it's tre chic.",
+    "portrait": "http://cdn.inquisitr.com/wp-content/uploads/2015/03/Amanda-Bynes-660-2000-AP-graphics-bank.jpg",
+    "address": "17590 Gillette Ave, Irvine, CA 92614",
+    "location": {
+      "lat" : 33.6919365,
+      "lng" : -117.8524869
+    },
+    "menu": [
+      {
+        "name": "Healthy Orange Chicken",
+        "type": "American Chinese",
+        "photo": "http://23209-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2013/10/IMG_4012edit1.jpg",
+        "description": "The dish I go to for comfort - battered and fried chicken thighs, covered in a sticky sweet citrus sauce, and a bowl of white rice. ",
+        "credits": "3"
+      },
+      {
+        "name": "Sweet BBQ Chicken Skewers",
+        "type": "Hawaiian",
+        "photo": "http://celebrating-family.com/wp-content/uploads/2014/05/Hawaiian-BBQ-Skewers-on-the-grill.jpg",
+        "description": "Sweet BBQ chicken, basted in a tangy and sweet hawaiian bbq sauce, skewered with chunks of pineapple and green onion. ",
+        "credits": "3"
+      },
+      {
+        "name": "Cauliflower Shwarma",
+        "type": "Mediterranean",
+        "photo": "http://media.immediate.co.uk/volatile/sites/2/2015/07/12080.jpg",
+        "description": "Spiced Cauliflower roasted and topped with a pomegranate yogurt sauce.",
+        "credits": "3"
+      },
+      {
+        "name": "Healthiest Greek Salad",
+        "type": "Greek",
+        "photo": "http://assets.epicurious.com/photos/576454fb42e4a5ed66d1df6b/master/pass/greek-salad.jpg",
+        "description": "My trainer says this is all I should eat - mixed greens, english cucumber, kalamata olives, red onion, cherry tomato, and feta cheese dressed in a feta olive and greek spice dressing. ",
+        "credits": "2"
+      },
+      {
+        "name": "Don't Tell my Trainer",
+        "type": "Classic American",
+        "photo": "http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/4/0/CC_Corn-Dogs_s4x3.jpg.rend.hgtvcom.616.462.jpeg",
+        "description": "Plump hot dogs, battered in a secret recipe, and fried to golden perfection. Best after a long night of drinking.",
+        "credits": "2"
+      }
+    ]
+  }
+]

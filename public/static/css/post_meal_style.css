@@ -1,0 +1,40 @@
+.food_item {
+    margin-left: 20px;
+    padding: 15px;
+    border: 1px solid lightgrey;
+    display: inline-block;
+    /*width: 320px;*/
+    /*height: 110px;*/
+}
+
+.food_name {
+    margin-left: 5px;
+    color: black;
+}
+
+.food_name p {
+    color: #c5d82b;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+
+.food_description, .food_price {
+    margin-left: 5px;
+    color: gray;
+    font-style: italic;
+}
+
+.food_img {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+p {
+    font-family: Arial;
+    font-size: small;
+}
+

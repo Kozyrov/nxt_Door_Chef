@@ -1,0 +1,473 @@
+body{
+    width: 90vw;
+    margin: 0 auto;
+    background-image: url("https://cdn.dribbble.com/users/887568/screenshots/3028813/kitchen_invitations.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+/*body {*/
+    /*font-family: "Times New Roman", Georgia, Serif;*/
+/*}*/
+
+/*h1,h2,h3,h4,h5,h6 {*/
+    /*font-family: "Playfair Display";*/
+    /*!*letter-spacing: 3px;*!*/
+/*}*/
+
+
+.container-fluid {
+    background-color: white;
+}
+.navbar-brand {
+    position: relative;
+    margin-left: 100px;
+    height: auto;
+    padding: 0px 0px 0px 20px;
+}
+.input-group {
+    margin-left: 200px;
+    margin-top: 15px;
+    font-style: italic;
+    /*margin-right: 10px;*/
+    /*border: 1px solid black;*/
+}
+.chefInput, .locationInput, .foodInput {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+}
+.jumbotron {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height: 100%;
+    background-color: white;
+}
+.jumbotron p {
+    font-size: 2.5vmin;
+}
+#app-info {
+    margin: 0;
+    padding: 0px 15px;
+}
+.jumbotron h2 {
+    color: #c8d842;
+}
+#map {
+    width: 90%;
+    height: 50vh;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: inline-block;
+}
+#mapTwo{
+    width: 40vw;
+    height: 40vh;
+}
+.results_heading {
+    display: inline-block;
+}
+.results_heading h5 {
+    float: right;
+    clear: both;
+}
+.results_heading h4 {
+    /*float: left;*/
+    display: inline-block;
+    clear: both;
+    padding: 0;
+
+}
+#food_listing {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*border: 1px solid black;*/
+}
+.food_item {
+    /*border: 1px solid #ECECEC;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.food_caption {
+    text-align: center;
+}
+.food_name {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.food_cost {
+    color: #6F7279;
+    font-size: small;
+}
+img {
+    height: 175px;
+    width: 275px;
+    margin: 20px 0 5px 0;
+    padding: 5px;
+}
+/*Added from checkout css*/
+.row {
+    padding: 0;
+    /*border: solid 1px #ECECEC;*/
+}
+#checkout {
+    margin-top: 50px;
+    width:75%;
+}
+#checkout > h3 {
+    border-bottom: 1px solid #c8d842;
+    padding-bottom:  10px;
+    margin-bottom: 50px;
+}
+#orderBy_container, #orderOf_container, #pickupInfo_container {
+    margin: 0;
+}
+#orderBy_container {
+    padding: 25px;
+    margin-right: 50px;
+    /*background-color: #ECECEC;*/
+    border: 1px solid #ECECEC;
+}
+#orderBy_container > h4 {
+    margin-bottom: 25px;
+}
+#orderOf_container {
+    padding: 25px;
+    margin-right: 50px;
+    border: 1px solid #ECECEC;
+}
+#orderOf_container > h5 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+#orderOf_container > img {
+    margin: 10px;
+    padding: 0;
+}
+#pickupInfo_container {
+    padding: 25px;
+    /*background-color: #ECECEC;*/
+    border: 1px solid #ECECEC;
+}
+
+#userFirstName, #userLastName, #userEmail {
+    margin-bottom: 30px;
+}
+.checkout_buttons {
+    float: right;
+    margin-right: 18%;
+    margin-top: 5%;
+    color: black;
+}
+#mealName {
+    text-transform: capitalize;
+}
+/*.modal-body {*/
+/*width: 950px;*/
+/*}*/
+.modal-header > img {
+    height: auto;
+    width: 200px;
+    text-align: center;
+}
+.modal-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 125%;
+    font-weight: 900;
+}
+.theChefBox{
+    height: 100%;
+}
+.jumbotron h1 {
+    color: #878989;
+    text-align: center;
+}
+.modal-content {
+    border-radius: 0;
+}
+.modal-header {
+    border-bottom-color: #c8d842;
+}
+#chefProfilePics{
+    height: 50vh;
+    background-size: contain;
+}
+#chefCarousel{
+    height: 50vh;
+    width: 100%;
+    background-size: contain;
+}
+.carousel-inner div{
+    height: 50vh;
+    width: 100%;
+    background-size: contain;
+    object-fit: cover;
+}
+
+/*.carousel-inner {*/
+    /*z-index: -1;*/
+/*}*/
+
+#menuCarousel {
+    height: 60vh;
+}
+
+.carousel-inner img{
+    height: 50vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: contain;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    object-fit: cover;
+}
+/*#chefProfileChef, #chefProfileLocation, #chefProfileMenu, #chefProfileReview{*/
+/*width: 60vw;*/
+/*}*/
+.results_heading {
+    text-align: justify;
+}
+.previous a, .next a{
+    color: black;
+}
+span.glyphicon-menu-left{
+    font-size: 3.5em;
+}
+.buyButton{
+    color: white;
+}
+
+.the_chef_picture {
+    height: 315px;
+    width: 315px;
+}
+.fullMenuButton {
+    background-color: #FE4427;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+
+th{
+    width: 25%;
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+th .glyphicon{
+    font-size: 2em;
+}
+.mapAndSearch {
+    height: 100%;
+}
+.backToHome{
+    /*position: fixed;*/
+    margin-top: 10px;
+    float: left;
+}
+
+.backToHome:hover{
+    color: #FE4427;
+}
+
+.hours li{
+    list-style-type: none;
+}
+.hours{
+    padding: 0;
+}
+#checkout, #checkout .container-fluid, #checkout .row{
+    margin: 0 auto;
+}
+.reviewsContainer{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 50vh;
+}
+.container-4{
+    overflow: hidden;
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-top: 14px;
+    /*border-radius: 5px;*/
+    margin-left: 5px;
+}
+.container-4 input#search{
+    width: 300px;
+    height: 33px;
+    background: lightgrey;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: black;
+    padding-left: 17px;
+    margin-bottom: 5px;
+    /*-webkit-border-radius: 5px;*/
+    /*-moz-border-radius: 5px;*/
+    /*border-radius: 5px;*/
+}
+.container-4 input#search::-webkit-input-placeholder {
+    color: #65737e;
+}
+.container-4 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;
+}
+.container-4 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;
+}
+.container-4 input#search:-ms-input-placeholder {
+    color: #65737e;
+}
+.container-4 button.icon{
+    /*-webkit-border-top-right-radius: 5px;*/
+    /*-webkit-border-bottom-right-radius: 5px;*/
+    /*-moz-border-radius-topright: 5px;*/
+    /*-moz-border-radius-bottomright: 5px;*/
+    /*border-top-right-radius: 5px;*/
+    /*border-bottom-right-radius: 5px;*/
+    border: none;
+    background: #232833;
+    height: 33px;
+    width: 50px;
+    color: #4f5b66;
+    opacity: 0;
+    font-size: 10pt;
+    -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+}
+.container-4:hover button.icon, .container-4:active button.icon, .container-4:focus button.icon{
+    outline: none;
+    opacity: 1;
+    margin-left: -60px;
+}
+.container-4:hover button.icon:hover{
+    background: #FE4427;
+}
+#whole-navbar {
+    border-bottom: 3px solid gray;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    margin-left: 7px;
+    margin-top:-10px;
+    z-index: 1;
+    margin-bottom: 3vmin;
+    background-color: white;
+}
+.right-nav {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    border-radius: 5px;
+}
+
+
+.mobileChefProfile, #mobileChefMenu {
+    display: none;
+}
+
+.profileDetails {
+    z-index: 1;
+}
+
+.carousel-inner {
+    overflow: hidden
+}
+
+.carousel-inner>.item>img {
+    height: 50vh;
+}
+
+
+@media (max-width: 600px) {
+    #whole-navbar {
+        display: block;
+        margin-top: 5px;
+        background: white;
+        margin-bottom: 0;
+    }
+    .theChefBox, #chefProfileMenu {
+        display: none;
+    }
+    .mobileChefProfile {
+        display: block;
+        margin-bottom: 10px;
+        margin-top: -20px;
+    }
+    .mobileChefProfile p {
+        font-size: 18px;
+    }
+    .mapAndSearch {
+        margin: 0 auto;
+    }
+    .navbar-brand {
+        margin: 0
+    }
+    #map {
+        width: 100%;
+        margin: 0
+    }
+    .backToHome {
+        margin-left: -20px;
+    }
+    span.glyphicon-menu-left {
+        font-size: 1.5em;
+    }
+    body {
+        display: block;
+    }
+    #chefProfilePics {
+        height: 34vh;
+        margin-top: 1vh;
+        margin-bottom: 5vh;
+    }
+    #chefCarousel {
+        height: inherit;
+    }
+    #mobileChefMenu {
+        display: block;
+    }
+    #orderBy_container, #orderOf_container {
+        padding: 0;
+    }
+    .carousel-inner>.item>img {
+        height: 27vh;
+    }
+    #userFirstName, #userLastName, #userEmail {
+        margin-bottom: 0;
+    }
+    #orderBy_container > h4 {
+        margin-bottom: 0;
+    }
+    #checkout > h3 {
+        margin-bottom: 0;
+    }
+}
+
+#landingPage, #whole-navbar{
+    opacity: 0;
+}
+
+/*#ajaxErrorModal{*/
+    /**/
+/*}*/
+
